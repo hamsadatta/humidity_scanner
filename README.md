@@ -13,6 +13,16 @@ The project has the following:
 
 ## Setup Instructions
 
+### Clone the Repository
+```
+$ git clone https://github.com/hamsadatta/humidity_scanner.git
+
+$ cd humidity_scanner
+```
+Install Dependencies:
+```
+$ pip install -r requirements.txt
+```
 
 ### Configuration
 
@@ -29,3 +39,16 @@ thingsboard:
   broker_port: 1883
   access_token: "YOUR_THINGSBOARD_ACCESS_TOKEN"
   telemetry_topic: "v1/devices/me/telemetry"
+```
+### Running the Project
+Publisher
+The publisher simulates humidity data and publishes it to an MQTT topic.
+```
+$ python3 publisher/publisher.py
+```
+
+Subscriber
+The subscriber receives humidity data from the MQTT broker, stores it locally when offline, and sends it to ThingsBoard when the connection is available.
+```
+$ python3 subscriber/subscriber.py
+```
