@@ -9,7 +9,7 @@ The project has the following:
 - SQLite for local data storage when the internet is unavailable.
 - ThingsBoard for data visualization.
 - YAML for configuration management.
-
+![Project Architecture ](assets/architecture.png)
 ![Project Demo](assets/demo.gif)
 ## Setup Instructions
 
