@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  publisher:
+    build: .
+    environment:
+      - SCRIPT_PATH=publisher/publisher.py
+
+  subscriber:
+    build: .
+    environment:
+      - SCRIPT_PATH=subscriber/subscriber.py
