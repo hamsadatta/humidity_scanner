@@ -52,3 +52,5 @@ The subscriber receives humidity data from the MQTT broker, stores it locally wh
 ```
 $ python3 subscriber/subscriber.py
 ```
+### ThingsBoard Dashboard
+You can view already simulated data at public [dashboard](https://demo.thingsboard.io/dashboard/96984070-3180-11ef-91aa-4b5b857befbc?publicId=726749a0-3232-11ef-91aa-4b5b857befbc)
