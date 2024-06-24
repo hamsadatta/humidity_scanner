@@ -1,0 +1,10 @@
+mqtt:
+  broker_address: "broker.hivemq.com"
+  broker_port: 1883
+  topic: "home/my_humidity"
+
+thingsboard:
+  broker_address: "demo.thingsboard.io"
+  broker_port: 1883
+  access_token: "YOUR_THINGSBOARD_ACCESS_TOKEN"
+  telemetry_topic: "v1/devices/me/telemetry"
