@@ -10,7 +10,7 @@ The project has the following:
 - ThingsBoard for data visualization.
 - YAML for configuration management.
 
-
+![Project Demo](assets/demo.gif)
 ## Setup Instructions
 
 ### Clone the Repository
